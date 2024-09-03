@@ -1,0 +1,38 @@
+print("Preet")
+print("My name is preet \n I am Cloud Engineer")
+a = complex(8, 2)
+print(a)
+b = True
+c = 1.1
+d = 2
+e = "preet"
+f = str(24)
+print(type(f))
+print("this is the type", type(a))
+print("this is the type", type(b))
+print("this is the type", type(c))
+print("this is the type", type(d))
+print("this is the type", type(e))
+# this is implicit typecasting
+ab = 2.3
+bc = 7
+abc = ab + bc
+print(abc)
+print("type of abc", type(abc))
+# Input Function
+# x = input("Enter your name : ")
+# print(x)
+# y = input("Enter the 1st no : ")
+# z = input("Enter the 2nd no : ")
+# print(int(y) + int(z))
+# String
+apple = '''It is a apple
+This a Fruit'''
+print(apple)
+print(apple[0])
+for character in apple:
+    print(character)
+# Slicing
+name = "PReet, LAmba"
+print(len(name))
+print(name[0:5])
